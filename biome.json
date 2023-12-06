@@ -8,7 +8,7 @@
   "formatter": {
     "enabled": true,
     "formatWithErrors": false,
-    "ignore": [".next", "node_modules"],
+    "ignore": ["node_modules"],
     "indentWidth": 2,
     "indentStyle": "space",
     "lineWidth": 80
@@ -35,7 +35,7 @@
     }
   },
   "linter": {
-    "ignore": [".next", "node_modules"],
+    "ignore": ["node_modules"],
     "rules": {
       "all": true,
       "nursery": {
