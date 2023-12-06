@@ -2,7 +2,12 @@
   "name": "alpinejs-playground",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "clean": "rm -rf node_modules && echo 'Done.'",
+    "dev": "bun index.ts"
+  },
   "devDependencies": {
+    "@biomejs/biome": "1.4.1",
     "bun-types": "latest"
   },
   "peerDependencies": {
