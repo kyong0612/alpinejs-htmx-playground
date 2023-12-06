@@ -1,4 +1,4 @@
-# alpinejs-playground
+# alpinejs-htmx-playground
 
 ## Technical Stack
 
