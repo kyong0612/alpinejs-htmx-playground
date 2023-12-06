@@ -2,6 +2,9 @@
 
 <head>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="https://unpkg.com/htmx.org@1.9.9"
+        integrity="sha384-QFjmbokDn2DjBjq+fM+8LUIVrAgqcNW2s0PjAxHETgRn9l4fvX31ZxDxvwQnyMOX"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -49,5 +52,14 @@
     </ul>
 </div>
 
+<h1>htmx</h1>
+
+<button hx-post="/clicked" hx-trigger="click" hx-target="#parent-div" hx-swap="outerHTML">
+    Click Me!
+</button>
+
+<div hx-put="/messages">
+    Put To Messages
+</div>
 
 </html>
